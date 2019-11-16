@@ -2,6 +2,10 @@
 
 A sample android application with **Google Maps** for SDK 9.
 
+![Android Google Maps](screenshot/1.jpg)
+
+![Android Google Maps](screenshot/2.jpg)
+
 ---------
 
 # Max Base
