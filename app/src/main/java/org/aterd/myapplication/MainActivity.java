@@ -207,7 +207,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.clear();
             }
             LatLng latlng = new LatLng(lat, lng);
-            mMap.addMarker(new MarkerOptions().position(latlng).title("موقعیت فعلی"));
+            mMap.addMarker(new MarkerOptions().position(latlng).title("Current location"));
             if(goTo) {
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng, 11));
 //                mMap.moveCamera(CameraUpdateFactory.newLatLng(gps));
