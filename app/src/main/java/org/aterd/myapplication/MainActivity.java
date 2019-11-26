@@ -108,7 +108,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 //                    LatLng zaragoza = new LatLng(41.648823,-0.889085);
                     List<LatLng> path = new ArrayList();
                     GeoApiContext context = new GeoApiContext.Builder()
-                            .apiKey("AIzaSyCIhrhwrQrz0Pp_VnAPSbykM72rLt9Euww")
+                            .apiKey("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                             .build();
                     DirectionsApiRequest req = DirectionsApi.getDirections(context, from.latitude + ", " + from.longitude,to.latitude + ", " + to.longitude);
                     req.mode(TravelMode.DRIVING);
