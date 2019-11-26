@@ -2,6 +2,11 @@
 
 A sample android application with **Google Maps** for SDK 9.
 
+## Setup
+
+Set your **Google API KEY** at [MainActivity.java file](https://github.com/BaseMax/AndroidGoogleMaps/blob/master/app/src/main/java/org/aterd/myapplication/MainActivity.java#L111).
+
+
 ![Android Google Maps](screenshot/1.jpg)
 
 ![Android Google Maps](screenshot/2.jpg)
